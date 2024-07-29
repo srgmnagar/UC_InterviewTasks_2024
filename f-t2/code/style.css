@@ -1,0 +1,17 @@
+
+body {
+    background-image: url("bg.jpg");
+    height:90vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust based on your design preference */
+  background-position: center;
+  }
+
+.card{
+  background-color: #0000004e;
+  height:500px ;
+  width: 400px;
+  backdrop-filter: blur(3px);
+}
+  
