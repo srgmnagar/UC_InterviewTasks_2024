@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reviews.css" />
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logo" src="logo.png" />
+        </div>
+        <div class="list">
+            <ul id="sidebar">
+                <li onclick="hideSidebar()">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                            <path
+                                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                        </svg></a>
+                </li>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Reviews.html">Reviews</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="hideonmobile"><a href="index.html">Home</a></li>
+                <li class="hideonmobile"><a href="About.html">About Us</a></li>
+                <li class="hideonmobile"><a href="Reviews.html">Reviews</a></li>
+                <li class="hideonmobile"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="div flex">
+            <button class="btn orange">Book a Table</button>
+            <svg class="menu-button" style="padding-top: 1rem" onclick="showSidebar()"
+                xmlns="http://www.w3.org/2000/svg" width="2.5rem" height="2.5rem" viewBox="0 0 8 8">
+                <path fill="currentColor" d="M0 1v1h8V1zm0 2.97v1h8v-1zm0 3v1h8v-1z" />
+            </svg>
+        </div>
+    </header>
+    <div class="flex page">
+        <h1 class="yrsa" style="color: rgb(255, 128, 0);">Contact us</h1>
+        <p class="greylorem" style="text-align: center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui officiis
+            minima neque libero quis distinctio.
+        </p>
+        <div class="main">
+            <div class="contact flex">
+                <div class="box1 flex">
+                    <div class="head">
+                        <h1 class="yrsa">Contact Information
+                        
+                        </h1>
+                        <h2 style="padding-bottom: 2rem; padding-top: 1rem;">Lorem, ipsum dolor sit amet consectetur adipisicing.
+                        </h2>
+                    </div>
+                    
+                    <ul>
+                        <h3><li>Lorem, ipsum dolor.</li></h3>
+                        <h3><li>Lorem ipsum dolor sit.</li></h3>
+                        <h3><li>Lorem, ipsum dolor.</li></h3>
+                        <h3><li>Lorem ipsum dolor sit.</li></h3>
+                    </ul>
+                    <div class="icons flex">
+                        <img class="icon_last" src="fb.png" alt="" />
+                        <img class="icon_last" src="ig.png" alt="" />
+                        <img class="icon_last" src="twitter.png" alt="" />
+                      </div>
+                      <img src="p3-2-img1.png" alt="">
+                    
+                </div>
+                <div class="box2">
+                    <form action="/action_page.php">
+                        <label for="fname">Name:</label><br>
+                        <input type="text" id="fname" name="name"><br>
+                        <label for="lname">Email Id:</label><br>
+                        <input type="email" id="email" name="email" ><br>
+                        <label for="email">Phone Number:</label><br>
+                        <input type="email"id="pno" name="pno" ><br>
+                        <label for="message">Message:</label><br>
+                        <input type="text" id="message" name="message" placeholder="Write your message"><br>
+                        <input id="submit" class= "orange" type="submit" value="Send Your message" >
+                      </form> 
+                      <img src="arrow.png" alt="">
+            </div>
+    
+        </div>
+        <img id="big_image" src="img_3.png" alt="">
+        </div>
+        
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector("#sidebar");
+            sidebar.style.display = "flex";
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector("#sidebar");
+            sidebar.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

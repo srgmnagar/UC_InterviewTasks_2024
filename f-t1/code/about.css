@@ -1,0 +1,86 @@
+html{
+    font-size: 10px;
+}
+body{
+  position: relative;
+}
+body >img {
+  position: absolute;
+  width: 20rem;
+  top: 17rem;
+  left: 21rem;
+}
+.ourexpert {
+  margin: auto;
+  text-align: left;
+  flex-direction: column;
+  gap: 3rem;
+  /* padding-right: 12rem; */
+}
+.ourexpert > :first-child {
+  font-size: 6rem;
+}
+
+.page {
+  justify-content: center;
+  padding: 2rem 58px;
+  margin: 0rem auto;
+  max-width: 100rem;
+}
+.point{
+  gap: 3rem;
+}
+.point ul li{
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.point ul li::before {
+content: '✓ ';
+color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width:1300px){
+  html{
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width:1100px) {
+    html{
+        font-size:8px;
+    }
+  .ourexpert {
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    gap:3rem;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding-right: 0; */
+  }
+  body >img {
+    position: absolute;
+    width: 18rem;
+    top: 16rem;
+    left: 11rem;
+}
+}
+@media only screen and (max-width:900px){
+  html{
+    font-size:7px;
+}
+.greylorem {
+  max-width:60rem;
+  color: gray;
+  font-size: 1.5rem;
+}
+body >img {
+  position: absolute;
+  width: 12rem;
+  top: 16rem;
+  left: 11rem;
+}
+.logo{
+  width: 23rem;
+}
+}
+
