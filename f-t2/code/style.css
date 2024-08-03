@@ -2,7 +2,6 @@ html{
   font-family: 'Montserrat';
   font-size: 10px;
   color: white;
-  
 }
 *{
   box-sizing: border-box;
@@ -133,6 +132,7 @@ section{
 .section__card{
   padding: 1rem 4rem;
   display: flex;
+  gap: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.273);
   border-radius: 35px;
   justify-content: space-between;
