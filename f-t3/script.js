@@ -23,7 +23,7 @@ function displayEvents(data) {
             </div>
             <div class="tickets">
                 <h2>Ticket Price: ${data.ticketPrice}</h2>
-                <h2>Total Tickets: ${data.totalTicket}</h2>
+                <h2>Total Tickets: ${data.totalTickets}</h2>
                 <h2>Available Ticket: ${data.availableTickets}</h2>
                 <h2>Booked Ticket: ${data.bookedTickets}</h2>
             </div>
